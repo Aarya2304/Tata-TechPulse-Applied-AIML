@@ -1,0 +1,45 @@
+{
+  "numeric_features": [
+    "year",
+    "km_driven",
+    "mileage_kmpl",
+    "engine_cc",
+    "max_power_bhp",
+    "torque_nm",
+    "seats"
+  ],
+  "train_rows": 5136,
+  "test_rows": 1771,
+  "imputer_medians_equal_train_medians": true,
+  "imputer_medians_equal_pooled_medians": true,
+  "scaler_means_equal_capped_train_means": true,
+  "scaler_stats_unchanged_after_test_transform": true,
+  "train_medians": {
+    "year": 2014.0,
+    "km_driven": 70000.0,
+    "mileage_kmpl": 19.49,
+    "engine_cc": 1248.0,
+    "max_power_bhp": 81.83,
+    "torque_nm": 160.0,
+    "seats": 5.0
+  },
+  "pooled_medians": {
+    "year": 2014.0,
+    "km_driven": 70000.0,
+    "mileage_kmpl": 19.49,
+    "engine_cc": 1248.0,
+    "max_power_bhp": 81.83,
+    "torque_nm": 160.0,
+    "seats": 5.0
+  },
+  "train_means_capped": {
+    "year": 2013.4772,
+    "km_driven": 72043.1203,
+    "mileage_kmpl": 19.5113,
+    "engine_cc": 1358.087,
+    "max_power_bhp": 86.1383,
+    "torque_nm": 169.0857,
+    "seats": 5.0
+  },
+  "conclusion": "No leakage: all learned statistics (medians, IQR fences, scaler mean/std, one-hot vocabulary) are computed from the training split only; transforming the test set does not modify them."
+}

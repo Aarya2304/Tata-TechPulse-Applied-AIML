@@ -1,0 +1,10 @@
+column,unique,missing,top_6_values
+name,2058,0,"Maruti Swift Dzire VDI (129), Maruti Alto 800 LXI (82), Maruti Alto LXi (71), BMW X4 M Sport X xDrive20d (62), Maruti Swift VDI (61), Maruti Swift VDI BSIV (59)"
+fuel,4,0,"Diesel (4402), Petrol (3631), CNG (57), LPG (38)"
+seller_type,3,0,"Individual (6766), Dealer (1126), Trustmark Dealer (236)"
+transmission,2,0,"Manual (7078), Automatic (1050)"
+owner,5,0,"First Owner (5289), Second Owner (2105), Third Owner (555), Fourth & Above Owner (174), Test Drive Car (5)"
+mileage,393,221,"18.9 kmpl (225), 19.7 kmpl (173), 18.6 kmpl (164), 21.1 kmpl (157), 17.0 kmpl (133), 15.96 kmpl (115)"
+engine,121,221,"1248 CC (1017), 1197 CC (832), 998 CC (453), 796 CC (444), 2179 CC (389), 1498 CC (375)"
+max_power,322,215,"74 bhp (377), 81.80 bhp (220), 88.5 bhp (204), 67 bhp (165), 46.3 bhp (162), 67.1 bhp (151)"
+torque,441,222,"190Nm@ 2000rpm (530), 200Nm@ 1750rpm (445), 90Nm@ 3500rpm (405), 113Nm@ 4200rpm (223), 114Nm@ 4000rpm (171), 62Nm@ 3000rpm (164)"

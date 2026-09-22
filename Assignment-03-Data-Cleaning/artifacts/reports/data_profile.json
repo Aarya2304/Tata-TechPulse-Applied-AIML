@@ -1,0 +1,236 @@
+{
+  "n_rows": 8128,
+  "n_columns": 13,
+  "columns": [
+    "name",
+    "year",
+    "selling_price",
+    "km_driven",
+    "fuel",
+    "seller_type",
+    "transmission",
+    "owner",
+    "mileage",
+    "engine",
+    "max_power",
+    "torque",
+    "seats"
+  ],
+  "dtypes": {
+    "name": "object",
+    "year": "int64",
+    "selling_price": "int64",
+    "km_driven": "int64",
+    "fuel": "object",
+    "seller_type": "object",
+    "transmission": "object",
+    "owner": "object",
+    "mileage": "object",
+    "engine": "object",
+    "max_power": "object",
+    "torque": "object",
+    "seats": "float64"
+  },
+  "duplicate_rows": 1202,
+  "total_missing_cells": 1100,
+  "per_column": {
+    "name": {
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 2058,
+      "top_values": {
+        "Maruti Swift Dzire VDI": 129,
+        "Maruti Alto 800 LXI": 82,
+        "Maruti Alto LXi": 71,
+        "BMW X4 M Sport X xDrive20d": 62,
+        "Maruti Swift VDI": 61,
+        "Maruti Swift VDI BSIV": 59,
+        "Maruti Wagon R LXI": 53,
+        "Maruti Alto K10 VXI": 50
+      }
+    },
+    "year": {
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 29,
+      "numeric_summary": {
+        "count": 8128.0,
+        "mean": 2013.804,
+        "std": 4.0442,
+        "min": 1983.0,
+        "25%": 2011.0,
+        "50%": 2015.0,
+        "75%": 2017.0,
+        "max": 2020.0
+      },
+      "zeros_count": 0,
+      "negative_count": 0
+    },
+    "selling_price": {
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 677,
+      "numeric_summary": {
+        "count": 8128.0,
+        "mean": 638271.8077,
+        "std": 806253.4035,
+        "min": 29999.0,
+        "25%": 254999.0,
+        "50%": 450000.0,
+        "75%": 675000.0,
+        "max": 10000000.0
+      },
+      "zeros_count": 0,
+      "negative_count": 0
+    },
+    "km_driven": {
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 921,
+      "numeric_summary": {
+        "count": 8128.0,
+        "mean": 69819.5108,
+        "std": 56550.555,
+        "min": 1.0,
+        "25%": 35000.0,
+        "50%": 60000.0,
+        "75%": 98000.0,
+        "max": 2360457.0
+      },
+      "zeros_count": 0,
+      "negative_count": 0
+    },
+    "fuel": {
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 4,
+      "top_values": {
+        "Diesel": 4402,
+        "Petrol": 3631,
+        "CNG": 57,
+        "LPG": 38
+      }
+    },
+    "seller_type": {
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 3,
+      "top_values": {
+        "Individual": 6766,
+        "Dealer": 1126,
+        "Trustmark Dealer": 236
+      }
+    },
+    "transmission": {
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 2,
+      "top_values": {
+        "Manual": 7078,
+        "Automatic": 1050
+      }
+    },
+    "owner": {
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "unique_count": 5,
+      "top_values": {
+        "First Owner": 5289,
+        "Second Owner": 2105,
+        "Third Owner": 555,
+        "Fourth & Above Owner": 174,
+        "Test Drive Car": 5
+      }
+    },
+    "mileage": {
+      "dtype": "object",
+      "missing_count": 221,
+      "missing_pct": 2.719,
+      "unique_count": 393,
+      "top_values": {
+        "18.9 kmpl": 225,
+        "19.7 kmpl": 173,
+        "18.6 kmpl": 164,
+        "21.1 kmpl": 157,
+        "17.0 kmpl": 133,
+        "15.96 kmpl": 115,
+        "22.0 kmpl": 111,
+        "16.1 kmpl": 111
+      }
+    },
+    "engine": {
+      "dtype": "object",
+      "missing_count": 221,
+      "missing_pct": 2.719,
+      "unique_count": 121,
+      "top_values": {
+        "1248 CC": 1017,
+        "1197 CC": 832,
+        "998 CC": 453,
+        "796 CC": 444,
+        "2179 CC": 389,
+        "1498 CC": 375,
+        "1396 CC": 321,
+        "1199 CC": 271
+      }
+    },
+    "max_power": {
+      "dtype": "object",
+      "missing_count": 215,
+      "missing_pct": 2.645,
+      "unique_count": 322,
+      "top_values": {
+        "74 bhp": 377,
+        "81.80 bhp": 220,
+        "88.5 bhp": 204,
+        "67 bhp": 165,
+        "46.3 bhp": 162,
+        "67.1 bhp": 151,
+        "88.7 bhp": 148,
+        "67.04 bhp": 145
+      }
+    },
+    "torque": {
+      "dtype": "object",
+      "missing_count": 222,
+      "missing_pct": 2.731,
+      "unique_count": 441,
+      "top_values": {
+        "190Nm@ 2000rpm": 530,
+        "200Nm@ 1750rpm": 445,
+        "90Nm@ 3500rpm": 405,
+        "113Nm@ 4200rpm": 223,
+        "114Nm@ 4000rpm": 171,
+        "62Nm@ 3000rpm": 164,
+        "69Nm@ 3500rpm": 141,
+        "160Nm@ 2000rpm": 138
+      }
+    },
+    "seats": {
+      "dtype": "float64",
+      "missing_count": 221,
+      "missing_pct": 2.719,
+      "unique_count": 9,
+      "numeric_summary": {
+        "count": 7907.0,
+        "mean": 5.4167,
+        "std": 0.9596,
+        "min": 2.0,
+        "25%": 5.0,
+        "50%": 5.0,
+        "75%": 5.0,
+        "max": 14.0
+      },
+      "zeros_count": 0,
+      "negative_count": 0
+    }
+  }
+}

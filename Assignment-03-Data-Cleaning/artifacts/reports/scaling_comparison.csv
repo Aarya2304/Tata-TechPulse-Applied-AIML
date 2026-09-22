@@ -1,0 +1,5 @@
+,raw,standard_scaled,robust_scaled
+km_driven,"{'mean': 72214.3163, 'std': 43417.7091, 'median': 70000.0, 'iqr': 60000.0}","{'mean': 0.0, 'std': 1.0001, 'median': -0.051, 'iqr': 1.382}","{'mean': 0.0369, 'std': 0.7236, 'median': 0.0, 'iqr': 1.0}"
+selling_price,"{'mean': 470609.0165, 'std': 294894.255, 'median': 400000.0, 'iqr': 384500.0}","{'mean': -0.0, 'std': 1.0001, 'median': -0.2395, 'iqr': 1.304}","{'mean': 0.1836, 'std': 0.767, 'median': 0.0, 'iqr': 1.0}"
+mileage_kmpl,"{'mean': 19.5038, 'std': 3.8708, 'median': 19.49, 'iqr': 5.32}","{'mean': 0.0, 'std': 1.0001, 'median': -0.0036, 'iqr': 1.3745}","{'mean': 0.0026, 'std': 0.7276, 'median': 0.0, 'iqr': 1.0}"
+max_power_bhp,"{'mean': 85.9244, 'std': 26.0281, 'median': 81.83, 'iqr': 31.0}","{'mean': -0.0, 'std': 1.0001, 'median': -0.1573, 'iqr': 1.1911}","{'mean': 0.1321, 'std': 0.8396, 'median': 0.0, 'iqr': 1.0}"

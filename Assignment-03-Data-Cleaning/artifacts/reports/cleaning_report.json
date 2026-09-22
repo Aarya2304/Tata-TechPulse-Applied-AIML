@@ -1,0 +1,207 @@
+{
+  "dataset": "CarDekho 'Car details v3' (Kaggle: nehalbirla/vehicle-dataset-from-cardekho)",
+  "original_row_count": 8128,
+  "original_column_count": 13,
+  "duplicate_rows_removed": 1221,
+  "rows_after_dedup": 6907,
+  "rows_removed_other": 0,
+  "columns_removed": [
+    "torque (raw string, replaced by torque_nm)",
+    "name (replaced by derived brand)"
+  ],
+  "final_row_count": 6907,
+  "missing_values_before_total": 1058,
+  "missing_values_after_total": 0,
+  "missing_before_by_column": {
+    "mileage": 221,
+    "engine": 221,
+    "max_power": 215,
+    "torque": 222,
+    "seats": 221
+  },
+  "domain_anomalies_fixed": {
+    "km_driven_below_min": 1,
+    "mileage_kmpl": 15,
+    "max_power_bhp": 3
+  },
+  "outliers_detected": {
+    "km_driven": 166,
+    "selling_price": 327,
+    "mileage_kmpl": 6,
+    "max_power_bhp": 305,
+    "engine_cc": 1203,
+    "torque_nm": 306
+  },
+  "outliers_capped": {
+    "km_driven": 166,
+    "selling_price": 327,
+    "mileage_kmpl": 12,
+    "max_power_bhp": 371
+  },
+  "outlier_strategy": "1.5*IQR winsorization (capping) for km_driven, selling_price, mileage_kmpl, max_power_bhp; engine_cc, torque_nm, year, seats retained uncapped (legitimate variety)",
+  "imputation": {
+    "numeric": "median",
+    "categorical": "most_frequent"
+  },
+  "scaling_comparison": {
+    "km_driven": {
+      "raw": {
+        "mean": 72214.3163,
+        "std": 43417.7091,
+        "median": 70000.0,
+        "iqr": 60000.0
+      },
+      "standard_scaled": {
+        "mean": 0.0,
+        "std": 1.0001,
+        "median": -0.051,
+        "iqr": 1.382
+      },
+      "robust_scaled": {
+        "mean": 0.0369,
+        "std": 0.7236,
+        "median": 0.0,
+        "iqr": 1.0
+      }
+    },
+    "selling_price": {
+      "raw": {
+        "mean": 470609.0165,
+        "std": 294894.255,
+        "median": 400000.0,
+        "iqr": 384500.0
+      },
+      "standard_scaled": {
+        "mean": -0.0,
+        "std": 1.0001,
+        "median": -0.2395,
+        "iqr": 1.304
+      },
+      "robust_scaled": {
+        "mean": 0.1836,
+        "std": 0.767,
+        "median": 0.0,
+        "iqr": 1.0
+      }
+    },
+    "mileage_kmpl": {
+      "raw": {
+        "mean": 19.5038,
+        "std": 3.8708,
+        "median": 19.49,
+        "iqr": 5.32
+      },
+      "standard_scaled": {
+        "mean": 0.0,
+        "std": 1.0001,
+        "median": -0.0036,
+        "iqr": 1.3745
+      },
+      "robust_scaled": {
+        "mean": 0.0026,
+        "std": 0.7276,
+        "median": 0.0,
+        "iqr": 1.0
+      }
+    },
+    "max_power_bhp": {
+      "raw": {
+        "mean": 85.9244,
+        "std": 26.0281,
+        "median": 81.83,
+        "iqr": 31.0
+      },
+      "standard_scaled": {
+        "mean": -0.0,
+        "std": 1.0001,
+        "median": -0.1573,
+        "iqr": 1.1911
+      },
+      "robust_scaled": {
+        "mean": 0.1321,
+        "std": 0.8396,
+        "median": 0.0,
+        "iqr": 1.0
+      }
+    }
+  },
+  "leakage_verification": {
+    "numeric_features": [
+      "year",
+      "km_driven",
+      "mileage_kmpl",
+      "engine_cc",
+      "max_power_bhp",
+      "torque_nm",
+      "seats"
+    ],
+    "train_rows": 5136,
+    "test_rows": 1771,
+    "imputer_medians_equal_train_medians": true,
+    "imputer_medians_equal_pooled_medians": true,
+    "scaler_means_equal_capped_train_means": true,
+    "scaler_stats_unchanged_after_test_transform": true,
+    "train_medians": {
+      "year": 2014.0,
+      "km_driven": 70000.0,
+      "mileage_kmpl": 19.49,
+      "engine_cc": 1248.0,
+      "max_power_bhp": 81.83,
+      "torque_nm": 160.0,
+      "seats": 5.0
+    },
+    "pooled_medians": {
+      "year": 2014.0,
+      "km_driven": 70000.0,
+      "mileage_kmpl": 19.49,
+      "engine_cc": 1248.0,
+      "max_power_bhp": 81.83,
+      "torque_nm": 160.0,
+      "seats": 5.0
+    },
+    "train_means_capped": {
+      "year": 2013.4772,
+      "km_driven": 72043.1203,
+      "mileage_kmpl": 19.5113,
+      "engine_cc": 1358.087,
+      "max_power_bhp": 86.1383,
+      "torque_nm": 169.0857,
+      "seats": 5.0
+    },
+    "conclusion": "No leakage: all learned statistics (medians, IQR fences, scaler mean/std, one-hot vocabulary) are computed from the training split only; transforming the test set does not modify them."
+  },
+  "transformations_applied": [
+    "Parsed 'mileage' strings ('23.4 kmpl' / '17.3 km/kg') to numeric mileage_kmpl",
+    "Parsed 'engine' ('1248 CC') to engine_cc",
+    "Parsed 'max_power' ('74 bhp') to max_power_bhp",
+    "Parsed 'torque' strings (Nm / kgm formats, kgm*9.80665) to torque_nm; dropped raw torque column",
+    "Derived 'brand' from the first word of 'name'; dropped raw 'name'",
+    "Removed 1221 exact duplicate rows",
+    "Domain checks: km_driven < 100, mileage_kmpl == 0 and max_power_bhp == 0 converted to NaN then imputed",
+    "Median imputation for numeric features",
+    "Most-frequent imputation for categorical features",
+    "IQR (k=1.5) winsorization applied to ['km_driven', 'selling_price', 'mileage_kmpl', 'max_power_bhp']",
+    "StandardScaler and RobustScaler compared on numeric features",
+    "OneHotEncoder(handle_unknown='ignore') for categorical features"
+  ],
+  "numeric_features": [
+    "year",
+    "km_driven",
+    "mileage_kmpl",
+    "engine_cc",
+    "max_power_bhp",
+    "torque_nm",
+    "seats"
+  ],
+  "categorical_features": [
+    "fuel",
+    "seller_type",
+    "transmission",
+    "owner",
+    "brand"
+  ],
+  "processed_matrix_shape": [
+    6907,
+    54
+  ]
+}
