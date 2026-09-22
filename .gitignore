@@ -39,3 +39,4 @@ build/
 
 # Local course documents
 Course Outline_*.pdf
+*.joblib
