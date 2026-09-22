@@ -1,0 +1,31 @@
+{
+  "selected_model": "Hist Gradient Boosting",
+  "features": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "temp_diff_k",
+    "power_w",
+    "torque_x_wear",
+    "Type"
+  ],
+  "numeric_features": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "temp_diff_k",
+    "power_w",
+    "torque_x_wear"
+  ],
+  "categorical_features": [
+    "Type"
+  ],
+  "target": "Machine failure",
+  "decision_threshold": 0.5,
+  "random_state": 42,
+  "pipeline": "preprocessor (impute/scale/onehot) -> classifier"
+}

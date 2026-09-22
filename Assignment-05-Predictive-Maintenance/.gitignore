@@ -1,0 +1,15 @@
+# Assignment 5 - Predictive Maintenance from Sensor Logs
+
+# Generated model binaries are reproducible via `python -m src.train`.
+# Keep the repo GitHub-friendly; only ignore large generated artifacts.
+models/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
