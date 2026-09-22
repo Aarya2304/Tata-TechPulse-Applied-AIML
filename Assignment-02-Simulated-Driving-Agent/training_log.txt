@@ -1,0 +1,58 @@
+================================================================
+Simulated Driving Agent - Genetic Algorithm training
+================================================================
+gen   0 | best   108.55 | avg     6.69 | progress    84.7 m | laps  0.13
+gen   1 | best  2290.94 | avg    65.44 | progress  1333.1 m | laps  2.00
+gen   2 | best  2290.94 | avg    66.65 | progress  1333.1 m | laps  2.00
+gen   3 | best  7079.02 | avg   204.76 | progress  4118.0 m | laps  6.16
+gen   4 | best  7079.02 | avg   271.85 | progress  4118.0 m | laps  6.16
+gen   5 | best  7660.66 | avg   599.07 | progress  4535.8 m | laps  6.79
+gen   6 | best  7660.66 | avg   751.16 | progress  4535.8 m | laps  6.79
+gen   7 | best  8573.13 | avg   991.08 | progress  5016.5 m | laps  7.51
+gen   8 | best  8573.13 | avg  2075.88 | progress  5016.5 m | laps  7.51
+gen   9 | best  8643.74 | avg  1959.42 | progress  5067.7 m | laps  7.59
+gen  10 | best  8645.00 | avg  1948.62 | progress  5069.1 m | laps  7.59
+gen  11 | best  8645.00 | avg  2821.36 | progress  5069.1 m | laps  7.59
+gen  12 | best  8908.31 | avg  3441.16 | progress  5255.6 m | laps  7.87
+gen  13 | best  8908.31 | avg  3079.03 | progress  5255.6 m | laps  7.87
+gen  14 | best  8908.31 | avg  4215.52 | progress  5255.6 m | laps  7.87
+gen  15 | best  8959.38 | avg  4483.92 | progress  5292.9 m | laps  7.92
+gen  16 | best  8959.38 | avg  4743.35 | progress  5292.9 m | laps  7.92
+gen  17 | best  8959.38 | avg  4167.43 | progress  5292.9 m | laps  7.92
+gen  18 | best  8973.09 | avg  5047.01 | progress  5300.8 m | laps  7.94
+gen  19 | best  8973.09 | avg  4519.66 | progress  5300.8 m | laps  7.94
+gen  20 | best  8994.51 | avg  4537.65 | progress  5313.4 m | laps  7.95
+gen  21 | best  9018.43 | avg  4113.87 | progress  5329.4 m | laps  7.98
+gen  22 | best  9033.29 | avg  4644.59 | progress  5338.8 m | laps  7.99
+gen  23 | best  9033.29 | avg  4562.82 | progress  5338.8 m | laps  7.99
+gen  24 | best  9033.29 | avg  4549.91 | progress  5338.8 m | laps  7.99
+gen  25 | best  9033.29 | avg  4250.52 | progress  5338.8 m | laps  7.99
+gen  26 | best  9042.25 | avg  4672.13 | progress  5345.4 m | laps  8.00
+gen  27 | best  9042.25 | avg  5428.15 | progress  5345.4 m | laps  8.00
+gen  28 | best  9042.25 | avg  5753.99 | progress  5345.4 m | laps  8.00
+gen  29 | best  9042.25 | avg  5099.49 | progress  5345.4 m | laps  8.00
+gen  30 | best  9042.25 | avg  5833.45 | progress  5345.4 m | laps  8.00
+gen  31 | best  9044.61 | avg  6523.34 | progress  5345.4 m | laps  8.00
+gen  32 | best  9044.61 | avg  6588.45 | progress  5345.4 m | laps  8.00
+gen  33 | best  9044.61 | avg  6755.01 | progress  5345.4 m | laps  8.00
+gen  34 | best  9076.37 | avg  6430.40 | progress  5365.9 m | laps  8.03
+gen  35 | best  9076.37 | avg  6159.31 | progress  5365.9 m | laps  8.03
+gen  36 | best  9076.37 | avg  5809.68 | progress  5365.9 m | laps  8.03
+gen  37 | best  9076.37 | avg  5182.49 | progress  5365.9 m | laps  8.03
+gen  38 | best  9079.55 | avg  5647.83 | progress  5369.2 m | laps  8.04
+gen  39 | best  9079.55 | avg  5125.69 | progress  5369.2 m | laps  8.04
+gen  40 | best  9079.55 | avg  5155.68 | progress  5369.2 m | laps  8.04
+gen  41 | best  9079.55 | avg  6034.31 | progress  5369.2 m | laps  8.04
+gen  42 | best  9079.55 | avg  4786.37 | progress  5369.2 m | laps  8.04
+gen  43 | best  9079.55 | avg  4893.31 | progress  5369.2 m | laps  8.04
+gen  44 | best  9079.55 | avg  5782.93 | progress  5369.2 m | laps  8.04
+gen  45 | best  9079.55 | avg  5490.28 | progress  5369.2 m | laps  8.04
+gen  46 | best  9079.55 | avg  5646.99 | progress  5369.2 m | laps  8.04
+gen  47 | best  9079.55 | avg  4942.89 | progress  5369.2 m | laps  8.04
+gen  48 | best  9079.55 | avg  5799.81 | progress  5369.2 m | laps  8.04
+gen  49 | best  9079.55 | avg  5666.22 | progress  5369.2 m | laps  8.04
+
+Training finished in 118.3 s
+Best fitness : 9079.55
+Best progress: 5369.2 m (8.04 laps of 668 m)
+Plots saved to D:\TataTechpulse Assignments\Assignment-02-Simulated-Driving-Agent\artifacts\plots
