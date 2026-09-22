@@ -1,0 +1,40 @@
+{
+  "selected_model": "Random Forest",
+  "features": [
+    "vehicle_age",
+    "km_driven",
+    "mileage_kmpl",
+    "engine_cc",
+    "max_power_bhp",
+    "torque_nm",
+    "seats",
+    "km_per_year",
+    "fuel",
+    "seller_type",
+    "transmission",
+    "owner",
+    "brand"
+  ],
+  "numeric_features": [
+    "vehicle_age",
+    "km_driven",
+    "mileage_kmpl",
+    "engine_cc",
+    "max_power_bhp",
+    "torque_nm",
+    "seats",
+    "km_per_year"
+  ],
+  "categorical_features": [
+    "fuel",
+    "seller_type",
+    "transmission",
+    "owner",
+    "brand"
+  ],
+  "target": "selling_price",
+  "target_transform": "log1p",
+  "random_state": 42,
+  "reference_year": 2020,
+  "sklearn_pipeline": "preprocessor -> regressor, wrapped in TransformedTargetRegressor(log1p/expm1)"
+}
