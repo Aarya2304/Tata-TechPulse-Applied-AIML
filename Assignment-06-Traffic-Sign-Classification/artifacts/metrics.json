@@ -1,0 +1,16 @@
+{
+  "test_accuracy": 0.9792557403008709,
+  "macro_precision": 0.9630877493348147,
+  "macro_recall": 0.9653865855337037,
+  "macro_f1": 0.9630151283153325,
+  "weighted_precision": 0.9799758027888412,
+  "weighted_recall": 0.9792557403008709,
+  "weighted_f1": 0.9791212167707831,
+  "n_test": 12630,
+  "n_incorrect": 262,
+  "best_epoch": 23,
+  "epochs_run": 29,
+  "final_val_accuracy": 0.999489963054657,
+  "seed": 42,
+  "note": "seeds set for python/numpy/tensorflow; bit-for-bit reproducibility is not guaranteed on this backend"
+}

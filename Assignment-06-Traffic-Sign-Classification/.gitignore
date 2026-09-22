@@ -1,0 +1,19 @@
+# Assignment 6 - Traffic Sign Classification using CNN
+
+# The GTSRB archive is ~570 MB extracted and re-obtainable from the official
+# source (auto-downloaded by `python -m src.train`); keep it out of Git.
+data/downloads/
+
+# Trained CNN (~2 MB). Reproducible via `python -m src.train`; metadata and
+# class mapping stay in the repo.
+models/*.keras
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
