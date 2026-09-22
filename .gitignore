@@ -1,0 +1,41 @@
+# Freebuff
+.freebuff/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Secrets / environment
+.env
+.env.*
+
+# Assignment-generated temporary files
+*.log
+
+# Local course documents
+Course Outline_*.pdf

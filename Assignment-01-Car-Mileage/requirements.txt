@@ -1,0 +1,11 @@
+# Assignment 1 - Car Mileage Estimation
+# Tata Technologies TechPulse FY-26 Applied AI/ML
+#
+# Python 3.11
+pandas==2.3.0
+numpy==1.26.4
+scikit-learn==1.3.0
+matplotlib==3.10.1
+seaborn==0.13.2
+joblib==1.4.2
+pytest==7.4.0
