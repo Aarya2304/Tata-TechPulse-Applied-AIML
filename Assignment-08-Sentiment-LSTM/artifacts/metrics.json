@@ -1,0 +1,22 @@
+{
+  "test_accuracy": 0.9028,
+  "test_precision": 0.9652,
+  "test_recall": 0.9301,
+  "test_f1": 0.9473,
+  "test_roc_auc": 0.807,
+  "test_pr_auc": 0.9806,
+  "val_accuracy_best": 0.8991,
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "tn": 55,
+    "fp": 60,
+    "fn": 125,
+    "tp": 1664
+  },
+  "split_sizes": {
+    "train": 15225,
+    "val": 1903,
+    "test": 1904
+  },
+  "epochs_run": 6
+}

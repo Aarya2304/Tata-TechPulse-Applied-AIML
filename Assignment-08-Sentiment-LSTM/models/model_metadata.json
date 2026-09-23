@@ -1,0 +1,56 @@
+{
+  "model_path": "best_sentiment_lstm.keras",
+  "architecture": "Embedding -> LSTM -> Dropout -> Dense(relu) -> Dense(sigmoid)",
+  "vocab_size": 12000,
+  "fitted_vocabulary": 25880,
+  "sequence_length": 120,
+  "embedding_dim": 64,
+  "lstm_units": 64,
+  "dense_units": 32,
+  "dropout": 0.4,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "max_epochs": 12,
+  "epochs_run": 6,
+  "random_state": 42,
+  "class_mapping": {
+    "0": "Negative",
+    "1": "Positive"
+  },
+  "class_weights": {
+    "0": 8.2925,
+    "1": 0.5321
+  },
+  "split_sizes": {
+    "train": 15225,
+    "val": 1903,
+    "test": 1904
+  },
+  "dataset": "Amazon Automotive product reviews (McAuley SNAP, 2016)",
+  "dataset_url": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Automotive_5.json.gz",
+  "cleaning_stats": {
+    "rows_loaded": 20473,
+    "missing_ratings": 0,
+    "missing_text_raw": 6,
+    "neutral_reviews_dropped": 1430,
+    "rows_dropped_missing_text_or_label": 1436,
+    "duplicates_removed": 5,
+    "rows_final": 19032,
+    "class_counts": {
+      "0": 1147,
+      "1": 17885
+    },
+    "class_distribution": {
+      "0": 0.0,
+      "1": 0.0
+    },
+    "word_length_stats": {
+      "min": 4,
+      "median": 57.0,
+      "mean": 89.4,
+      "p95": 265,
+      "max": 2243
+    }
+  },
+  "threshold": 0.5
+}

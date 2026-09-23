@@ -1,0 +1,15 @@
+# Assignment 8 - Sentiment Analysis using LSTM
+
+# Datasets (the downloaded archive stays out of the repository)
+data/downloads/
+*.json.gz
+*.gz
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS artifacts
+Thumbs.db
+.DS_Store
