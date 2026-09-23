@@ -1,0 +1,13 @@
+{
+  "images_evaluated": 308,
+  "total_ground_truth_pedestrians": 589,
+  "total_predictions": 592,
+  "true_positives": 382,
+  "false_positives": 210,
+  "false_negatives": 207,
+  "precision": 0.6453,
+  "recall": 0.6486,
+  "f1_score": 0.6469,
+  "mean_matched_iou": 0.6776,
+  "iou_threshold": 0.5
+}

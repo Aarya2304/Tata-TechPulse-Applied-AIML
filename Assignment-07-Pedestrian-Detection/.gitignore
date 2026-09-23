@@ -1,0 +1,19 @@
+# Assignment 7 - Pedestrian Detection using OpenCV
+
+# Datasets (large archives and extracted images are not tracked)
+data/downloads/
+data/INRIAPerson/
+*.tar
+*.zip
+
+# Generated annotated outputs
+outputs/annotated/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS artifacts
+Thumbs.db
+.DS_Store
