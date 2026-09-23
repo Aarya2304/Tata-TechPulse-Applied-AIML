@@ -1,0 +1,15 @@
+# Assignment 9 - Feature Importance Visualization
+
+# The dataset is NOT copied into this assignment: when available it is read
+# directly (read-only) from Assignment 3/4's local copy. The data/ directory
+# only holds a downloaded fallback copy when those are missing.
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS artifacts
+Thumbs.db
+.DS_Store

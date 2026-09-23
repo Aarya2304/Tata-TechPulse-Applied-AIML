@@ -1,0 +1,40 @@
+{
+  "MAE": 67110.1,
+  "RMSE": 134939.1,
+  "R2": 0.9722,
+  "dataset": {
+    "dataset": "CarDekho \"Car details v3\"",
+    "path_used": "car_data.csv",
+    "source_type": "reused read-only from Assignment 3/4 local copy",
+    "download_fallback_url": "https://raw.githubusercontent.com/imanishshahu/Car-Price-Prediction/main/Car%20details%20v3.csv",
+    "origin": "Kaggle: nehalbirla/vehicle-dataset-from-cardekho (Car details v3)",
+    "rows_raw": 8128,
+    "rows_dropped_missing_target": 0,
+    "rows_final": 8128,
+    "n_features": 14,
+    "numeric_features": [
+      "year",
+      "km_driven",
+      "seats",
+      "mileage_kmpl",
+      "engine_cc",
+      "max_power_bhp",
+      "torque_nm",
+      "vehicle_age",
+      "km_per_year"
+    ],
+    "categorical_features": [
+      "fuel",
+      "seller_type",
+      "transmission",
+      "owner",
+      "brand"
+    ]
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "n_transformed_features": 55,
+  "train_rows": 6502,
+  "test_rows": 1626,
+  "model": "RandomForestRegressor(n_estimators=300)"
+}

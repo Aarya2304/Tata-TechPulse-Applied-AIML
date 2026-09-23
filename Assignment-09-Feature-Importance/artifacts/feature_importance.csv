@@ -1,0 +1,56 @@
+feature,importance,method
+max_power_bhp,0.7020733852286511,impurity
+year,0.0929450073147632,impurity
+vehicle_age,0.09266566238353369,impurity
+torque_nm,0.03626703129112273,impurity
+km_driven,0.022116886464461014,impurity
+mileage_kmpl,0.010148596787497651,impurity
+engine_cc,0.0073180382892910015,impurity
+km_per_year,0.006244510960421792,impurity
+brand_Volvo,0.004664507024512218,impurity
+seller_type_Individual,0.0026831318599606605,impurity
+brand_Toyota,0.0025447170242549866,impurity
+brand_Mercedes-Benz,0.002291044999744048,impurity
+brand_BMW,0.002208260525850431,impurity
+brand_Land,0.001961870542285979,impurity
+seller_type_Dealer,0.0017698887901561515,impurity
+brand_Tata,0.0016389547832183187,impurity
+seats,0.001108585823236132,impurity
+transmission_Manual,0.000918107130495815,impurity
+fuel_Diesel,0.0009084433146370578,impurity
+transmission_Automatic,0.0008800833826538531,impurity
+brand_Audi,0.000779961998208387,impurity
+owner_First Owner,0.0007612081724541606,impurity
+fuel_Petrol,0.0007314492777553817,impurity
+brand_Chevrolet,0.0007292084179746774,impurity
+owner_Second Owner,0.0004756774694415452,impurity
+brand_Volkswagen,0.000447153010757272,impurity
+brand_Skoda,0.000342174709593319,impurity
+brand_Jaguar,0.00029844899485731625,impurity
+owner_Test Drive Car,0.000287402170039982,impurity
+brand_Mahindra,0.000279572388415614,impurity
+brand_Ford,0.00024103043926938903,impurity
+brand_Maruti,0.00018489266743278073,impurity
+brand_Honda,0.00016192696907640125,impurity
+owner_Third Owner,0.00014026481731229,impurity
+brand_Hyundai,0.00013236471418486245,impurity
+brand_Renault,0.000128270742747132,impurity
+brand_Kia,9.558333943712867e-05,impurity
+brand_Jeep,8.49830283551201e-05,impurity
+owner_Fourth & Above Owner,8.432970664740831e-05,impurity
+brand_Nissan,5.347789910009884e-05,impurity
+seller_type_Trustmark Dealer,4.906309341066923e-05,impurity
+brand_Lexus,4.74244290770373e-05,impurity
+brand_Mitsubishi,4.60979443435533e-05,impurity
+brand_Fiat,2.3247178977348576e-05,impurity
+brand_Datsun,1.1919077290232458e-05,impurity
+brand_Force,6.962366356333508e-06,impurity
+fuel_LPG,6.275722812927536e-06,impurity
+brand_MG,5.8704268027912425e-06,impurity
+brand_Isuzu,3.877869610355023e-06,impurity
+fuel_CNG,2.922381239763091e-06,impurity
+brand_Ashok,6.499119331175432e-08,impurity
+brand_Ambassador,5.6652790480189936e-08,impurity
+brand_Peugeot,5.182144467159716e-08,impurity
+brand_Daewoo,3.734916115754198e-08,impurity
+brand_Opel,3.3841681215457435e-08,impurity
