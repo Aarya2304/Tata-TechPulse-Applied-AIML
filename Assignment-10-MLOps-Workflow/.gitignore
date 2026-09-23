@@ -1,0 +1,28 @@
+# --- Python caches ---------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# --- Virtual environments --------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- Generated ML artifacts (kept tiny, but never tracked) ------------------
+artifacts/*
+!artifacts/.gitkeep
+mlruns/*
+!mlruns/.gitkeep
+*.joblib
+*.pkl
+
+# --- Environment / secrets --------------------------------------------------
+.env
+.env.*
+*.key
+
+# --- Logs / OS noise --------------------------------------------------------
+*.log
+.DS_Store
+Thumbs.db

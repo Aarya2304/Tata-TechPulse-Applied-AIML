@@ -1,0 +1,14 @@
+services:
+  ml-api:
+    build: .
+    image: techpulse-mlops:1.0.0
+    container_name: techpulse-ml-api
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "scripts/healthcheck.py", "http://localhost:8000"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped
